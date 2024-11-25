@@ -1,0 +1,93 @@
+.patient-dashboard {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Light background for better contrast */
+    border-radius: 8px; /* Rounded corners for the dashboard */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.medical-records-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #ffffff; /* White background for table */
+}
+
+.medical-records-table th, .medical-records-table td {
+    border: 1px solid #ddd;
+    padding: 10px; /* Increased padding for better touch targets */
+    text-align: left;
+}
+
+.medical-records-table th {
+    background-color: #f2f2f2; /* Light gray background for table headers */
+    color: #333; /* Darker text for headers */
+}
+
+.view-button {
+    background-color: #007BFF; /* Blue background for visibility */
+    color: white; /* White text for contrast */
+    border: none;
+    padding: 5px 10px; /* Padding for better touch targets */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.view-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.scrollable-sections {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.prescriptions-section, .allergies-section {
+    width: 48%;
+    height: 200px;
+    overflow-y: auto; /* Changed to 'auto' for better scrolling */
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ffffff; /* White background for sections */
+}
+
+.prescriptions-section h3, .allergies-section h3 {
+    margin-top: 0; /* Remove top margin from headings */
+}
+
+.high-risk {
+    color: red;
+    font-weight: bold;
+}
+
+.low-risk {
+    color: green;
+}
+
+/* Additional styles for input fields and forms */
+.setup-form input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px; /* Increased padding for better usability */
+    width: 100%;
+    border: 1px solid #ccc; /* Border for input fields */
+    border-radius: 5px; /* Rounded corners for input fields */
+}
+
+.setup-form button {
+    padding: 10px; /* Consistent padding for buttons */
+    background-color: #007BFF; /* Button color */
+    color: white; /* White text for contrast */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transition effect for buttons */
+}
+
+.setup-form button:hover {
+    background-color: #0056b3; /* Darker button color on hover */
+}
